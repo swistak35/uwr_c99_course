@@ -1,0 +1,72 @@
+# depslib dependency file v1.0
+1359320821 source:/home/swistak35/Projekty/carrot/interaction.c
+	"interaction.h"
+
+1359320846 /home/swistak35/Projekty/carrot/interaction.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"support.h"
+	"activities.h"
+	"timer.h"
+	"subjects.h"
+	"statistics.h"
+
+1359326497 /home/swistak35/Projekty/carrot/support.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<stdarg.h>
+	<time.h>
+	<ctype.h>
+	<pwd.h>
+	"subjects.h"
+	"activities.h"
+
+1359320897 source:/home/swistak35/Projekty/carrot/main.c
+	"interaction.h"
+
+1359326908 /home/swistak35/Projekty/carrot/subjects.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+	"support.h"
+
+1359326942 source:/home/swistak35/Projekty/carrot/subjects.c
+	"subjects.h"
+
+1359326488 source:/home/swistak35/Projekty/carrot/support.c
+	"support.h"
+
+1359326984 /home/swistak35/Projekty/carrot/activities.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"support.h"
+
+1359326978 source:/home/swistak35/Projekty/carrot/activities.c
+	"activities.h"
+
+1359327370 source:/home/swistak35/Projekty/carrot/timer.c
+	"timer.h"
+
+1359327148 /home/swistak35/Projekty/carrot/timer.h
+	<stdlib.h>
+	<stdio.h>
+	<stdbool.h>
+	<time.h>
+	"support.h"
+
+1358102580 /home/swistak35/Projekty/carrot/statistics.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"support.h"
+	"activities.h"
+	"timer.h"
+	"subjects.h"
+
+1358104159 source:/home/swistak35/Projekty/carrot/statistics.c
+	"statistics.h"
+

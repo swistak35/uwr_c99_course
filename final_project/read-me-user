@@ -1,0 +1,12 @@
+Program służący do rejestrowania czasu poświęconego na naukę.
+Aby uruchomić wpisz:
+<nazwa_programu>
+lub:
+<nazwa_programu> <nazwa_przedmiotu> <nazwa_aktywności>
+np. carrot Logika "Czytanie whitebooka"
+
+Pliki z danymi są przechowywane w katalogu domowym, ich nazwy:
+.carrot-subjects.bin
+.carrot-activities.bin
+.carrot-timer.bin
+W przypadku backupu, wystarczy przenieść te 3 pliki.

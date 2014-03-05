@@ -1,0 +1,19 @@
+Podział programu na moduły:
+* Interaction - moduł odpowiedzialny za interakcję z użytkownikiem. Zawarte są w nim też funkcje do kolorowania interfejsu (tylko na linuksie).
+* Support - moduł pomocniczy, zawiera funkcje używane w różnych częściach programu
+* Subjects/Activities - moduł do komunikowania się z bazą danych (w pliku) odpowiednio do przedmiotów i aktywności - moduły są do siebie bardzo podobne
+* Timer - moduł odpowiadający za rejestrację czasu i zapisywanie do bazy danych (w pliku). Posiada też możliwość aplikowania pauz do timerów.
+* Statistics - moduł odpowiadający za przeliczanie statystyk - wyświetla już moduł Interaction.
+
+Plik main.c:
+- jeśli ilość argumentów jest równa 3: stara się przejść od razu do mierzenia czasu, parsuje argumenty tak:
+    <nazwa_programu> <nazwa_przedmiotu> <nazwa_aktywności>, np:
+    carrot Logika "Czytanie whitebooka"
+- w przeciwnym wypadku, uruchamia główny interfejs
+
+Moduły do interakcji z użytkownikiem oraz do zarządzania bazą danych (odpowiednimi plikami) są od siebie całkowicie rozdzielone, aby była możliwość ich reużycia oraz łatwego rozwoju systemu.
+
+Kompilacja:
+- make: kompiluje cały projekt
+- make clean: czyści katalog z plików wykonywalnych i *.o
+Można też użyć pliku .cbp i skompilować projekt przez Codeblocks (który za nas ustawi wszystkie parametry, pliki i przekaże je do gcc).
